@@ -14,21 +14,15 @@
 # limitations under the License.
 #
 
-# Sample: This is where we'd set a backup provider if we had one
-# $(call inherit-product, device/sample/products/backup_overlay.mk)
-
-# Get the long list of APNs
-PRODUCT_COPY_FILES := device/sample/etc/apns-full-conf.xml:system/etc/apns-conf.xml
-
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-PRODUCT_DEVICE := d801
-PRODUCT_NAME := full_d801
+PRODUCT_DEVICE := f320
+PRODUCT_NAME := full_f320
 PRODUCT_BRAND := LGE
-PRODUCT_MODEL := LG-D801
+PRODUCT_MODEL := LG-f320
 PRODUCT_MANUFACTURER := lge
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
 # Inherit from hardware-specific part of the product configuration
-$(call inherit-product, device/lge/d801/device.mk)
+$(call inherit-product, device/lge/f320/device.mk)
