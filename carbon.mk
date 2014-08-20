@@ -12,7 +12,7 @@ $(call inherit-product, device/lge/f320/f320.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := f320
-PRODUCT_NAME := liquid_f320
+PRODUCT_NAME := carbon_f320
 PRODUCT_BRAND := LGE
 PRODUCT_MODEL := LG-f320
 PRODUCT_MANUFACTURER := lge
