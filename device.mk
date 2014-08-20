@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-$(call inherit-product-if-exists, vendor/lge/f320/f320-vendor.mk)
+$(call inherit-product-if-exists, vendor/lge/g2/f320/f320-vendor.mk)
 $(call inherit-product, device/lge/g2-common/g2.mk)
 
 ## overlays
