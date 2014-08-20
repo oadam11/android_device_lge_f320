@@ -16,7 +16,7 @@
 
 include device/lge/g2-common/BoardConfigCommon.mk
 
-TARGET_KERNEL_CONFIG := deathly_f320_defconfig
+TARGET_KERNEL_CONFIG := f320_defconfig
 
 TARGET_OTA_ASSERT_DEVICE := f320,f320k,f320s,f320l
 
