@@ -5,8 +5,7 @@ TARGET_SCREEN_WIDTH := 1080
 # Inherit some common Liquid stuff.
 $(call inherit-product, vendor/carbon/config/common_phone.mk)
 
-# Enhanced NFC
-$(call inherit-product, vendor/carbon/config/nfc_enhanced.mk)
+
 
 # Inherit device configuration
 $(call inherit-product, device/lge/f320/f320.mk)
